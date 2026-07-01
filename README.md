@@ -10,13 +10,18 @@ A complete end-to-end data analysis project exploring the factors that influence
 Student-Exam-Performance-Analysis/
 │
 ├── data/
-│   ├── Student_Performance_Factors_raw_data.csv          # Original dataset from Kaggle
-│   ├── Student_Performance_Factors_clean_data.csv        # Cleaned & preprocessed data
-│   └── Student_Performance_Factors_excel_engineered.xlsx # Excel pivot analysis
+│   ├── raw/
+│       └── Student_Performance_Factors_raw_data.csv          # Original dataset
 │
-├── Student_Exam_Performance_Analysis.ipynb               # Google Colab notebook (Python)
+│   └── processed/
+│       ├── Student_Performance_Factors_clean_data.csv        # Cleaned & preprocessed data
+│       └── Student_Performance_Factors_excel_engineered.xlsx # Excel pivot analysis
+│
+├── Student_Exam_Performance_Analysis.ipynb               # Main Python Notebook
 ├── Student_Performance_Analysis.sql                      # MySQL queries
 ├── Student_Performance_Analysis.pbix                     # Power BI dashboard
+├── assets/
+│   └── dashboard.jpeg
 └── README.md
 ```
 
